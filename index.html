@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekolojik Kredi Sistemi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ekolojik Kredi</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#nedir">Nedir?</a></li>
+            <li><a href="#ekolojik-kredi">Ekolojik Kredi</a></li>
+            <li><a href="#kayit">Kayıt Ol</a></li>
+            <li><a href="#bize-ulasin">Bize Ulaşın</a></li>
+            <li><a href="#toplam-atik">Toplam Atık Sayacı</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="ekolojik-kredi">
+            <h2>Ekolojik Kredi Nedir?</h2>
+            <p>Ekolojik Kredi, çevre bilincini artırmak amacıyla geliştirilen bir sistemdir. Öğrenciler çevre dostu faaliyetler ile kredi kazanır ve bu krediler ödüllerle değiştirilebilir.</p>
+        </section>
+
+        <section id="nedir">
+            <h2>Geri Dönüşüm Nedir?</h2>
+            <p>Geri dönüşüm, atıkların yeniden kullanılması için işlenmesidir. Bu işlem doğayı korur ve kaynakları verimli kullanmamıza yardımcı olur.</p>
+        </section>
+
+        <section id="kayit">
+            <h2>Kaydolun</h2>
+            <div id="okul-kaydi">
+                <h3>Okul Kaydı</h3>
+                <form id="okul-form">
+                    <input type="text" id="school-name" placeholder="Okul Adı" required />
+                    <input type="password" id="school-password" placeholder="Okul Şifresi" required />
+                    <button type="submit">Kaydol</button>
+                </form>
+            </div>
+            <div id="ogrenci-kaydi">
+                <h3>Öğrenci Kaydı</h3>
+                <form id="ogrenci-form">
+                    <input type="text" id="student-name" placeholder="Ad" required />
+                    <input type="text" id="student-surname" placeholder="Soyad" required />
+                    <input type="email" id="student-email" placeholder="Email" required />
+                    <input type="text" id="student-number" placeholder="Okul Numarası" required />
+                    <button type="submit">Kaydol</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="toplam-atik">
+            <h2>Toplam Atık Sayacı</h2>
+            <p>Toplam geri dönüştürülen atık miktarı: <span id="waste-counter">0 kg</span></p>
+        </section>
+
+        <section id="bize-ulasin">
+            <h2>Bize Ulaşın</h2>
+            <p>İzmir Torbalı Anadolu Lisesi</p>
+            <p>Email: <a href="mailto:ekolojikkreditubitak@gmail.com">ekolojikkreditubitak@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ekolojik Kredi. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
